@@ -1,0 +1,13 @@
+{
+  "name": "cypress-app",
+  "version": "0.1.0",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "firefox": "npx cypress run --browser firefox",
+    "electron": "npx cypress run --browser elecron"
+  },
+  "dependencies": {
+    "cypress": "^13.14.2"
+  },
+  "license": "MIT"
+}
